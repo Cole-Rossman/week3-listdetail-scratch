@@ -5,6 +5,7 @@ export const watches = [
         manufacturer: 'Patek Philippe',
         material: 'Stainless steel',
         price: '$35,000', 
+        image: 'nautilus',
     },
     {
         id: '2',
@@ -12,6 +13,7 @@ export const watches = [
         manufacturer: 'Rolex',
         material: 'Yellow Gold',
         price: '$45,000', 
+        image: 'daytona',
     },
     {
         id: '3',
@@ -19,6 +21,7 @@ export const watches = [
         manufacturer: 'Richard Mille',
         material: 'Ceramic',
         price: '$400,000', 
+        image: 'rm055',
     },
     {
         id: '4',
@@ -26,6 +29,7 @@ export const watches = [
         manufacturer: 'Cartier',
         material: 'Stainless Steel',
         price: '$6,300', 
+        image: 'santos',
     },
     {
         id: '5',
@@ -33,6 +37,7 @@ export const watches = [
         manufacturer: 'Grand Seiko',
         material: 'Stainless Steel',
         price: '$6,400', 
+        image: 'gs36000',
     },
     {
         id: '6',
@@ -40,6 +45,7 @@ export const watches = [
         manufacturer: 'Audemars Piguet',
         material: 'Stainless Steel',
         price: '$200,000', 
+        image: 'apskeleton',
     },
  
 ];

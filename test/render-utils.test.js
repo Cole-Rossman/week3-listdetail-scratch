@@ -11,6 +11,7 @@ test('renderList item should render a div with watch details', (expect) => {
         manufacturer: 'Grand Seiko',
         material: 'Stainless Steel',
         price: '$6,400',
+        image: 'gs36000',
     };
     const actual = renderListItem(grandSeiko);
 

@@ -3,14 +3,14 @@ export function renderListItem(watch) {
     div.classList.add('watch');
     
     const img = document.createElement('img');
-    img.src = `/assets/${watch.type}.png`;
+    img.src = `/assets/${watch.image}.png`;
     
     const nameSpan = document.createElement('span');
     nameSpan.textContent = watch.name;
     nameSpan.classList.add('name');
 
     const manufacturerSpan = document.createElement('span');
-    manufacturerSpan.textContent = watch.make;
+    manufacturerSpan.textContent = watch.manufacturer;
     manufacturerSpan.classList.add('manufacturer');
 
     div.append(img, nameSpan, manufacturerSpan);
@@ -27,14 +27,14 @@ export function renderWatch(watch) {
     div.classList.add('watch');
     
     const img = document.createElement('img');
-    img.src = `/assets/${watch.type}.png`;
+    img.src = `/assets/${watch.image}.png`;
     
     const nameP = document.createElement('p');
     nameP.textContent = watch.name;
     nameP.classList.add('name');
 
     const manufacturerP = document.createElement('p');
-    manufacturerP.textContent = watch.make;
+    manufacturerP.textContent = watch.manufacturer;
     manufacturerP.classList.add('manufacturer');
 
     const materialP = document.createElement('p');
