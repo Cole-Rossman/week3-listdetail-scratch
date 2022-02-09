@@ -3,7 +3,7 @@ export const watches = [
         id: '1',
         name: 'Nautilus',
         manufacturer: 'Patek Philippe',
-        material: 'Stainless steel',
+        material: 'Stainless Steel',
         price: '$35,000', 
         image: 'nautilus',
     },
