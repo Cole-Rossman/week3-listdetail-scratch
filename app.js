@@ -1,8 +1,9 @@
-// import functions and grab DOM elements
+import { watches } from './data.js';
+import { renderListItem, renderWatch } from './render-utils.js';
 
-// let state
+const ul = document.getElementById('watches-list');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let watch of watches) {
+    const watchDiv = renderListItem(watch);
+    ul.append(watchDiv);
+}

@@ -4,6 +4,7 @@ export function renderListItem(watch) {
     
     const img = document.createElement('img');
     img.src = `/assets/${watch.image}.png`;
+    img.classList.add('watch-image');
     
     const nameSpan = document.createElement('span');
     nameSpan.textContent = watch.name;
@@ -28,6 +29,7 @@ export function renderWatch(watch) {
     
     const img = document.createElement('img');
     img.src = `/assets/${watch.image}.png`;
+    img.classList.add('watch-image');
     
     const nameP = document.createElement('p');
     nameP.textContent = watch.name;
