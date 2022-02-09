@@ -1,5 +1,5 @@
 import { watches } from './data.js';
-import { renderListItem, renderWatch } from './render-utils.js';
+import { renderListItem } from './render-utils.js';
 
 const ul = document.getElementById('watches-list');
 
