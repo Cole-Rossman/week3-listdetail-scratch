@@ -1,0 +1,51 @@
+export const watches = [
+    {
+        id: '1',
+        name: 'Nautilus',
+        manufacturer: 'Patek Philippe',
+        material: 'Stainless Steel',
+        price: '$35,000', 
+        image: 'nautilus',
+    },
+    {
+        id: '2',
+        name: 'Daytona',
+        manufacturer: 'Rolex',
+        material: 'Yellow Gold',
+        price: '$45,000', 
+        image: 'daytona',
+    },
+    {
+        id: '3',
+        name: 'RM 055 Bubba Watson',
+        manufacturer: 'Richard Mille',
+        material: 'Ceramic',
+        price: '$400,000', 
+        image: 'rm055',
+    },
+    {
+        id: '4',
+        name: 'Santos',
+        manufacturer: 'Cartier',
+        material: 'Stainless Steel',
+        price: '$6,300', 
+        image: 'santos',
+    },
+    {
+        id: '5',
+        name: 'HI-BEAT 36000',
+        manufacturer: 'Grand Seiko',
+        material: 'Stainless Steel',
+        price: '$6,400', 
+        image: 'gs36000',
+    },
+    {
+        id: '6',
+        name: 'Royal Oak Skeleton',
+        manufacturer: 'Audemars Piguet',
+        material: 'Stainless Steel',
+        price: '$200,000', 
+        image: 'apskeleton',
+    },
+ 
+];
